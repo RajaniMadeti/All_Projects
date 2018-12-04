@@ -1,0 +1,79 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "log/.6425b6ef59d56488746d0ccea1d2ee6caecd0fd0-audit.json",
+    "files": [
+        {
+            "date": 1541195309440,
+            "name": "log/error-2018-11-02-16.log",
+            "hash": "4699611e960ae50e8a263b91e3c2e4af"
+        },
+        {
+            "date": 1541196110998,
+            "name": "log/error-2018-11-02-17.log",
+            "hash": "972dabaeee71d3eb34b8b637d1519faa"
+        },
+        {
+            "date": 1541245761919,
+            "name": "log/error-2018-11-03-06.log",
+            "hash": "8ca48646f3eef159bab4b3134c688edf"
+        },
+        {
+            "date": 1541246534297,
+            "name": "log/error-2018-11-03-07.log",
+            "hash": "3d0cfc49fc0f7cc8d239abce375c937e"
+        },
+        {
+            "date": 1541251195679,
+            "name": "log/error-2018-11-03-08.log",
+            "hash": "27b793869229b16350c3536f5d071467"
+        },
+        {
+            "date": 1541254884698,
+            "name": "log/error-2018-11-03-09.log",
+            "hash": "b4f123c78602ffc52d9b5d3e2432aae1"
+        },
+        {
+            "date": 1541258463400,
+            "name": "log/error-2018-11-03-10.log",
+            "hash": "321642f641c38972469e17c5f9aa39f0"
+        },
+        {
+            "date": 1541264049260,
+            "name": "log/error-2018-11-03-11.log",
+            "hash": "8cc29c8a5783a0157f4596263ec40507"
+        },
+        {
+            "date": 1541265137809,
+            "name": "log/error-2018-11-03-12.log",
+            "hash": "d452f4db9aff89771bf895a73d1b1bc9"
+        },
+        {
+            "date": 1541268594140,
+            "name": "log/error-2018-11-03-13.log",
+            "hash": "9389e3704141e28580fac1d65b8e2696"
+        },
+        {
+            "date": 1541272754072,
+            "name": "log/error-2018-11-03-14.log",
+            "hash": "6d4add411ab1e2cf69bba489d4db8b59"
+        },
+        {
+            "date": 1541278864856,
+            "name": "log/error-2018-11-03-16.log",
+            "hash": "a0283f583e037c6160771cd842806c0b"
+        },
+        {
+            "date": 1541371185086,
+            "name": "log/error-2018-11-04-16.log",
+            "hash": "4c6873ed67a24a1f2e6bf39d26ee3624"
+        },
+        {
+            "date": 1541372878535,
+            "name": "log/error-2018-11-04-17.log",
+            "hash": "4ec349d9fec4b567b427831aaed13d1e"
+        }
+    ]
+}

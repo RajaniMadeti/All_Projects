@@ -1,0 +1,64 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "log/.9e0e70c869af7dde0e9b3bd00cfb023c441e1c3d-audit.json",
+    "files": [
+        {
+            "date": 1542675045786,
+            "name": "log/application-2018-11-19-18.log",
+            "hash": "33721dc895c1e8176daf8a18afc9e244"
+        },
+        {
+            "date": 1543282519404,
+            "name": "log/application-2018-11-26-19.log",
+            "hash": "3446ce3363a49a749e1f9553b9d4af31"
+        },
+        {
+            "date": 1543605125030,
+            "name": "log/application-2018-11-30-13.log",
+            "hash": "509c6f00da1389d76d27ebf8460e838f"
+        },
+        {
+            "date": 1543769703577,
+            "name": "log/application-2018-12-02-10.log",
+            "hash": "b5a1796c00ac83f6abcc63301162694e"
+        },
+        {
+            "date": 1543770514139,
+            "name": "log/application-2018-12-02-11.log",
+            "hash": "993ea54f9692214591df5736391282e3"
+        },
+        {
+            "date": 1543794624057,
+            "name": "log/application-2018-12-02-17.log",
+            "hash": "79a8a703d82dc720e3f4e57b410add1f"
+        },
+        {
+            "date": 1543795220668,
+            "name": "log/application-2018-12-02-18.log",
+            "hash": "f9cc46b08acae472278d59580dc46f16"
+        },
+        {
+            "date": 1543799136019,
+            "name": "log/application-2018-12-02-19.log",
+            "hash": "4b7656e2c23a5c3fb183ee405b7aab52"
+        },
+        {
+            "date": 1543802402163,
+            "name": "log/application-2018-12-02-20.log",
+            "hash": "d39ab0c55ee432ccd2edcf15f51a99de"
+        },
+        {
+            "date": 1543856792728,
+            "name": "log/application-2018-12-03-11.log",
+            "hash": "11d1792035a023e35f4e548646c807d6"
+        },
+        {
+            "date": 1543880224386,
+            "name": "log/application-2018-12-03-17.log",
+            "hash": "45e3a5362cfea5bc92ba741d4bf73aea"
+        }
+    ]
+}
