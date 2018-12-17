@@ -1,10 +1,3 @@
-// export class User {
-// 	constructor(){
-// 		this.message = "User clicked the login button";
-// 	}
-// }
-
-
 import { inject } from 'aurelia-framework';
 import { Router } from 'aurelia-router';
 import { User } from '../resources/data/user-object'
@@ -14,12 +7,9 @@ export class Users {
     constructor(router, users) {
         this.router = router;
         this.users = users;
-
         this.message = 'Users';
         this.showUserEditForm = false;
-
     }
-
 
     async activate() {
         await this.getUsers();
@@ -28,7 +18,6 @@ export class Users {
     attached() {
         feather.replace()
     }
-
 
     async getUsers() {
         await this.users.getUsers();
@@ -51,20 +40,15 @@ export class Users {
         this.user = user;
         this.openEditForm();
     }
-    // async save (){
-    //     console.log(this.user);
-    // }
-
 
     openEditForm() {
         this.showUserEditForm = true;
-
         setTimeout(() => { $("#firstName").focus(); }, 500);
-
     }
 
-    back() {
-        this.showUserEditForm = false;
+    changeActive(user) {
+        this.user = user;
+        this.save();
     }
 
     async save() {
@@ -73,9 +57,7 @@ export class Users {
             await this.users.saveUser(this.user);
             await this.getUsers();
             this.back();
-
         }
-
     }
 
     async delete() {
@@ -86,13 +68,10 @@ export class Users {
         }
     }
 
-    changeActive(user) {
-        this.user = user;
-        this.save();
+    back() {
+        this.showUserEditForm = false;
     }
 
 
-    // logout() {
-    //     this.router.navigate('home');
-    // }
+
 }

@@ -1,8 +1,3 @@
-// export class App {
-//   constructor() {
-//     this.message = 'Hello World!';
-//   }
-// }
 import {AuthorizeStep} from 'aurelia-auth';
 
 export class App {
@@ -28,13 +23,15 @@ export class App {
       {
         route: 'users',
         moduleId: './modules/users',
-        name: ' Users'
+        name: ' Users',
+        auth: true 
       },
 
       {
-        route: 'helptickets',
-        moduleId: './modules/helptickets',
-        name: 'HelpTickets'
+        route: 'helpTickets',
+        moduleId: './modules/helpTickets',
+        name: 'HelpTickets',
+        auth: true 
       }
 
     ]);

@@ -7,8 +7,8 @@ export class User {
     constructor(data) {
         this.data = data;
         this.USER_SERVICE = 'users';
-
     }
+
     async saveUser(user) {
         let serverResponse;
         if (user) {
@@ -21,7 +21,11 @@ export class User {
         }
     }
 
-
+    async delete(user) {
+        if (user && user._id) {
+            await this.data.delete(this.USER_SERVICE + '/' + user._id)
+        }
+    }
 
     async getUsers() {
         let response = await this.data.get(this.USER_SERVICE);
@@ -29,12 +33,6 @@ export class User {
             this.usersArray = response;
         } else {
             this.usersArray = [];
-        }
-    }
-
-    async delete(user) {
-        if (user && user._id) {
-            await this.data.delete(this.USER_SERVICE + '/' + user._id)
         }
     }
 

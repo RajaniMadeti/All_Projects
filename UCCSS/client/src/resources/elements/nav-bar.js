@@ -10,9 +10,9 @@ export class NavBar {
         this.auth = auth;
         this.loginError = '';
 
-        this.authenticated = false;
-        this.email = "";
-        this.password = "";
+        // this.authenticated = false;
+        // this.email = "";
+        // this.password = "";
     }
 
     bind() {
@@ -27,13 +27,6 @@ export class NavBar {
         });
     }
 
-
-    // login() {
-    //     console.log(this.email);
-    //     console.log(this.password);
-    //     this.authenticated = true;
-    //     this.router.navigate('home');
-    // }
 
     login() {
         return this.auth.login(this.email, this.password)
@@ -57,7 +50,7 @@ export class NavBar {
     //     this.router.navigate('landing');
     // }
     logout() {
-        if (this.userObj) this.auth.logout(this.userObj.email);
+        // if (this.userObj) this.auth.logout(this.userObj.email);
         sessionStorage.removeItem('user');
         this.isAuthenticated = this.auth.isAuthenticated();
         this.auth.logout();
